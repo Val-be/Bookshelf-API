@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const isAuthenticated = require("../middleware/isAuthenticated");
 const Book = require("../models/Book.model");
-const isAuthenticated = require("../middleware/isAuthenticated");
 const isAdmin = require("../middleware/isAdmin.js");
 
 // //Find all books
